@@ -1,0 +1,9 @@
+streamlit
+opencv-python
+ultralytics
+filterpy
+scikit-learn
+tensorflow
+gdown==4.6.0
+ffmpeg-python
+numpy
