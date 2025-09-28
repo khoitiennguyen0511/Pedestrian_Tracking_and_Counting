@@ -1,3 +1,4 @@
+
 # 🧍 Pedestrian Tracking and Counting using YOLOv8 + DeepSORT
 
 This project implements a real-time pedestrian tracking and counting system using **YOLOv8** for object detection and **DeepSORT** for multi-object tracking. The goal is to count the number of people crossing a virtual line in a video stream (from webcam or file).
@@ -22,7 +23,10 @@ This project implements a real-time pedestrian tracking and counting system usin
   <img src="https://github.com/khoitiennguyen0511/Pedestrian_Tracking_and_Counting/assets/demo.gif" width="720" />
 </p>
 
-*People are counted as they cross the virtual line.*
+# Pedestrian Tracking and Counting
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pedestriantrackingandcounting.streamlit.app/)
+
 
 ---
 
