@@ -56,10 +56,4 @@ winget install ffmpeg
 streamlit run app.py
 ```
 
-Then, a window appears and you choose video.mp4 file in my repository. If you want to choose another video, you need to choose a video with the format (.mp4, .avi, .webm, .wpeg4 and limit 200MB)
-
-## Results
-
-**Pedestrian tracking and counting**
-
-![image.png](attachment:9871cb2c-30e7-4ad3-812d-6338cfa7cb49:image.png)
+Then, a window appears and you choose **video.mp4** file in my repository. If you want to choose another video, you need to choose a video with the format (.mp4, .avi, .webm, .wpeg4 and limit 200MB)
