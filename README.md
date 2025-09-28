@@ -56,4 +56,4 @@ winget install ffmpeg
 streamlit run app.py
 ```
 
-Then, a window appears and you choose **video.mp4** file in my repository. If you want to choose another video, you need to choose a video with the format (.mp4, .avi, .webm, .wpeg4 and limit 200MB)
+Then, a window appears and you choose **video.mp4** file in my cloned repository. If you want to choose another video, you need to choose a video with the format (.mp4, .avi, .webm, .wpeg4 and limit 200MB)
