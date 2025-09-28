@@ -1,12 +1,6 @@
 ## 🎥 Demo Video
 
-[![Watch on YouTube](https://img.youtube.com/vi/cf1kmcOJJgg/0.jpg)](https://youtu.be/cf1kmcOJJgg)
-
-Hoặc nhúng như sau:
-
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/cf1kmcOJJgg"
-  title="YouTube video player" frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
+<video width="640" controls>
+  <source src="traking_results/result_compressed.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
