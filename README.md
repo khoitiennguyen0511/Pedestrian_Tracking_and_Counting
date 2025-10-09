@@ -1,4 +1,4 @@
-<img width="1175" height="662" alt="image" src="https://github.com/user-attachments/assets/71202c14-1fc5-4cff-8815-628d45a2dc7f" /># 👣 Pedestrians Tracking & Counting using YOLOv8 + DeepSORT
+# Pedestrians Tracking & Counting using YOLOv8 + DeepSORT
 
 [![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge&logo=python&logoColor=white)](https://ultralytics.com/)
 [![DeepSORT](https://img.shields.io/badge/DeepSORT-4B8BBE?style=for-the-badge)](https://arxiv.org/abs/1703.07402)
@@ -28,23 +28,17 @@ Hệ thống **phát hiện – theo dõi – đếm người đi bộ** theo th
   - [Yêu cầu hệ thống](#yêu-cầu-hệ-thống)
   - [Cài đặt dependencies](#cài-đặt-dependencies)
   - [Chạy giao diện Streamlit](#chạy-giao-diện-streamlit)
-  - [Chạy bằng script (CLI)](#chạy-bằng-script-cli)
-- [Tuỳ chỉnh & mẹo hiệu năng](#tuỳ-chỉnh--mẹo-hiệu-năng)
-- [Xử lý sự cố](#xử-lý-sự-cố)
-- [Đóng góp](#đóng-góp)
-- [Giấy phép & Ghi công](#giấy-phép--ghi-công)
 - [Liên hệ](#liên-hệ)
 
 ## Tổng quan
-Pipeline hoàn chỉnh để **phát hiện** người (`person`), **theo dõi ID ổn định** theo thời gian bằng **DeepSORT**, và **đếm** lượng người đi qua khung hình/khu vực. Ứng dụng hướng tới sự **dễ dùng** (Streamlit), **dễ mở rộng**, và **dễ triển khai**.
+Pipeline hoàn chỉnh để **phát hiện** người (`person`), **theo dõi ID ổn định** theo thời gian bằng **DeepSORT**, và **đếm** lượng người đi qua khung hình/khu vực. Ứng dụng hướng tới sự dễ dùng (Streamlit), dễ mở rộng, và dễ triển khai.
 
 ## Tính năng
-- **Phát hiện pedestrians** bằng YOLOv8 (trọng số COCO hoặc fine-tune riêng).
+- **Phát hiện pedestrians** bằng YOLOv8 (fine-tune trên MOT17).
 - **Theo dõi đa đối tượng** với DeepSORT (gán ID nhất quán).
 - **Đếm người** theo khung hình/line/zone (tuỳ logic trong app).
 - **Giao diện Streamlit**: upload video, xem kết quả, lưu video đầu ra.
 - **Hỗ trợ CPU/GPU** (CUDA nếu môi trường cho phép).
-- **Log/biểu đồ** kết quả (khi bật lưu và trực quan hoá).
 
 ## Cấu trúc dự án
 ```text
@@ -72,7 +66,6 @@ Pedestrian_Tracking_and_Counting/
 
 ## Chạy trên Google Colab
 - **Detect (YOLOv8):**  [Object_Detection.ipynb](https://colab.research.google.com/drive/1xRHFuxw0sm5G6vp3cQZxTtNwN3ego55g#scrollTo=_JYXSm8QYx2U)
-- 
 - **Tracking (DeepTRACK):**  [YOLOv8_DeepSORT_Tracking.ipynb](https://colab.research.google.com/drive/1IfCSu1GW6ioWrZOI2KidIVk9MZ-flQS6)
 
 ## Kết quả đánh giá
@@ -87,7 +80,7 @@ Pedestrian_Tracking_and_Counting/
 ## Kết quả đếm
 
 <p align="center">
-  <img src="[tracking_results/ped_count_plot.png](https://github.com/khoitiennguyen0511/Pedestrian_Tracking_and_Counting/blob/main/assets/pedestrian_demo.gif)" alt="Biểu đồ đếm pedestrians" width="800">
+  <img src="https://github.com/khoitiennguyen0511/Pedestrian_Tracking_and_Counting/blob/main/assets/pedestrian_counting.jpg" alt="Biểu đồ đếm pedestrians" width="800">
   <br><em>Hình ảnh kết quả người đi bộ ở công viên</em>
 </p>
 
@@ -130,13 +123,13 @@ winget install ffmpeg
 ```
 streamlit run app.py
 # hoặc:
-python -m streamlit run app.py
+# python -m streamlit run app.py
 ```
 > Chọn video.mp4 trong repo hoặc upload video định dạng .mp4, .avi, .webm, .mpeg4 (mặc định giới hạn **~200MB**).
 
 ## Liên hệ
-- GitHub: @khoitiennguyen0511
+- GitHub: [@khoitiennguyen0511](https://github.com/khoitiennguyen0511)
 - Email: khoitiennguyen2004l@gmail.com
-- LinkedIn: Tiến Khôi Nguyễn
+- Linkln: [Tiến Khôi Nguyễn](https://www.linkedin.com/in/ti%E1%BA%BFn-kh%C3%B4i-nguy%E1%BB%85n-63732935b/)
 
-⭐ Nếu thấy hữu ích, hãy cho repo một star nhé!
+⭐ Nếu bạn thấy dự án hữu ích, đừng quên cho repository một star!
