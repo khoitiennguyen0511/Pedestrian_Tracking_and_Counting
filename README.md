@@ -23,7 +23,7 @@ Hệ thống **phát hiện – theo dõi – đếm người đi bộ** theo th
 - [Cấu trúc dự án](#cấu-trúc-dự-án)
 - [Chạy trên Google Colab](#chạy-trên-google-colab)
 - [Kết quả đánh giá](#kết-quả-đánh-giá)
-- [Kết quả đếm & trực quan hoá](#kết-quả-đếm--trực-quan-hoá)
+- [Kết quả đếm](#kết-quả-đếm)
 - [Cài đặt và chạy chương trình](#cài-đặt-và-chạy-chương-trình)
   - [Yêu cầu hệ thống](#yêu-cầu-hệ-thống)
   - [Cài đặt dependencies](#cài-đặt-dependencies)
