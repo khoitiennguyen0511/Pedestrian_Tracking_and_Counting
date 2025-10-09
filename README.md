@@ -8,10 +8,10 @@
 
 Hệ thống **phát hiện – theo dõi – đếm người đi bộ** theo thời gian thực, kết hợp **YOLOv8** (detect) và **DeepSORT** (tracking ID), có giao diện **Streamlit** trực quan. Chạy tốt trên Windows/macOS/Linux (CPU/GPU).
 
-**Demo video:** [Demo](https://www.youtube.com/watch?v=cf1kmcOJJgg)
+**Link video:** [Demo](https://www.youtube.com/watch?v=cf1kmcOJJgg)
 
 <p align="center">
-  <img src="tracking_results/demo.gif" width="640" alt="Pedestrians Tracking Demo">
+  <img src="https://github.com/khoitiennguyen0511/Pedestrian_Tracking_and_Counting/blob/main/assets/pedestrian_demo.gif" width="640" alt="Pedestrians Tracking Demo">
   <br><em>Hình ảnh theo dõi & đếm người đi bộ ở công viên</em>
 </p>
 
