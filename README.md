@@ -1,4 +1,4 @@
-# Pedestrians Tracking & Counting using YOLOv8 + DeepSORT
+# Pedestrians Tracking & Counting using YOLOv8 + DeepSORT on Streamlit
 
 [![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge&logo=python&logoColor=white)](https://ultralytics.com/)
 [![DeepSORT](https://img.shields.io/badge/DeepSORT-4B8BBE?style=for-the-badge)](https://arxiv.org/abs/1703.07402)
