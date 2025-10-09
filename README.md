@@ -31,7 +31,7 @@ Hệ thống **phát hiện – theo dõi – đếm người đi bộ** theo th
 - [Liên hệ](#liên-hệ)
 
 ## Tổng quan
-Pipeline hoàn chỉnh để **phát hiện** người (`person`), **theo dõi ID ổn định** theo thời gian bằng **DeepSORT**, và **đếm** lượng người đi qua khung hình/khu vực. Ứng dụng hướng tới sự dễ dùng (Streamlit), dễ mở rộng, và dễ triển khai.
+Pipeline hoàn chỉnh để **phát hiện** người, **theo dõi ID ổn định** theo thời gian bằng **DeepSORT**, và đếm lượng người đi qua khung hình/khu vực. Ứng dụng hướng tới sự dễ dùng (Streamlit), dễ mở rộng, và dễ triển khai.
 
 ## Tính năng
 - **Phát hiện pedestrians** bằng YOLOv8 (fine-tune trên MOT17).
