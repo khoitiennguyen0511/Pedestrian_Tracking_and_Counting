@@ -17,6 +17,12 @@ Hệ thống **phát hiện – theo dõi – đếm người đi bộ** theo th
 
 ---
 
+## Pipeline project
+<p align="center">
+  <img src="https://github.com/khoitiennguyen0511/Pedestrian_Tracking_and_Counting/blob/main/assets/pipelone.jpeg" width="640" alt="Pedestrians Tracking pipeline">
+  <br><em>Pipeline project</em>
+</p>
+
 ## Mục lục
 - [Tổng quan](#tổng-quan)
 - [Tính năng](#tính-năng)
