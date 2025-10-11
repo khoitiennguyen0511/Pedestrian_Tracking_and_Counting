@@ -5,6 +5,7 @@
 [![PYTORCH](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Sreamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/)
 
 Hệ thống **phát hiện – theo dõi – đếm người đi bộ** theo thời gian thực, kết hợp **YOLOv8** (detect) và **DeepSORT** (tracking ID), có giao diện **Streamlit** trực quan. Chạy tốt trên Windows/macOS/Linux (CPU/GPU).
 
